@@ -1,573 +1,168 @@
 <!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!-- Strata 为 HTML5 UP 提供的免费网站模板 -->
 <html>
-	<head>
-		<title>Strata by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<head>
+	<title>个人网站</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/Avatar.jpeg" alt="" /></a>
-					<h1><strong>I am Ruming Zheng</strong><br />
-					MSc Robotics<br />
-					BEng (Hons) Electronic Engineering and Computer Systems<br /></h1>
+<!-- 头部 -->
+<header id="header">
+	<div class="inner">
+		<a href="#" class="image avatar"><img src="images/Avatar.jpeg" alt="头像" /></a>
+		<h1><strong>我是邱明振</strong><br />
+		机器人学硕士<br />
+		电子工程与计算机系统本科<br /></h1>
+	</div>
+</header>
+
+<!-- 主体 -->
+<div id="main">
+	<!-- 自我介绍 -->
+	<section id="one">
+		<header class="major">
+			<h2 style="color: purple;">关于我</h2>
+		</header>
+		<p>我是曼彻斯特大学的机器人学硕士，具有电子工程背景，专注于机器人与人工智能。</p>
+		<ul class="actions">
+			<li><a href="assets/Ruming Zheng - CV.pdf" class="button">我的简历</a></li>
+		</ul>
+		<h2 style="color: purple;">职业目标</h2>
+		<p>我的目标是将机器人和人工智能应用于医疗领域，开发创新的实际解决方案。我热衷于设计与部署智能机器人系统，支持诊断、手术和病患照护。通过跨学科协作与研究驱动的开发，我致力于提升现代医疗的效率、精准性与可及性。最终，我希望通过集成先进的 AI 技术推动医疗体系的可持续发展并改善病患成果。</p>
+	</section>
+	<h2 style="color: purple;">研究方向</h2>
+	<p>
+		• <strong>机器人</strong>（特别是医疗机器人和人机交互）<br />
+		• <strong>机器学习与深度学习</strong>（应用于实时决策）<br />
+		• <strong>计算机视觉</strong>（医学影像、目标识别、场景理解）<br />
+		• <strong>自主系统与智能控制</strong><br />
+		• <strong>面向医疗和生物工程的人工智能</strong>
+	</p>
+
+	<!-- 项目经历 -->
+	<section id="two">
+		<h2 style="color: purple;">近期项目</h2>
+		<div class="row">
+			<article class="col-6 col-12-xsmall work-item">
+				<div class="image video-preview">
+					<video style="width: 100%; filter: brightness(1);" autoplay muted loop playsinline>
+						<source src="images/NAV.mp4" type="video/mp4">
+					</video>
 				</div>
-			</header>
+				<h3><strong>Leo Rover 小组项目</strong></h3>
+				<p><strong>目标</strong>：构建一个能自主探索、识别分类物体并在有限时间和系统限制下安全运行的机器人。<br />
+<strong>我的贡献</strong>：负责硬件与软件集成，包括 SLAMTEC LiDAR 安装、Intel NUC 配置及基于 ROS 的控制开发。<br />
+<strong>收获</strong>：掌握了实时机器人控制、传感器集成及自主系统部署的实操经验。<br /></p>
+			</article>
 
-		<!-- Main --> 
-			<div id="main">
+			<article class="col-6 col-12-xsmall work-item">
+				<video width="100%" controls>
+					<source src="images/Coursework_01.mp4" type="video/mp4">
+				</video>
+				<h3><strong>可持续发展中的机器人系统研究</strong></h3>
+				<p><strong>目标</strong>：探索机器人技术如何支持联合国可持续发展目标，涵盖医疗、农业等多个领域。<br />
+<strong>我的贡献</strong>：分析现实案例，评估隐私与就业等伦理问题，推动负责任的机器人设计。<br />
+<strong>收获</strong>：理解机器人技术与可持续发展的关系，提升了研究能力与伦理思辨能力。<br /></p>
+			</article>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2 style="color: purple;">About Me<br />
-							</h2>
-						</header>
-						<p> I'm an MSc Robotics student at the University of Manchester, with a background in Electronic Engineering and a focus on robotics and AI.</p>
-						<ul class="actions">
-							<li><a href="assets/Ruming Zheng - CV.pdf" class="button">My CV</a></li>
-						</ul>
-						
-						<h2 style="color: purple;">Career Objectives</h2>
-						<p> My objective is to leverage robotics and artificial intelligence to create innovative, real-world solutions in the medical field. 
-							I am passionate about designing and deploying intelligent robotic systems that assist in diagnostics, surgical procedures, and patient care. 
-							Through interdisciplinary collaboration and research-driven development, I aim to enhance the efficiency, precision, and accessibility of modern healthcare. 
-							Ultimately, my <strong>Goal</strong> is to contribute to transforming healthcare systems by integrating advanced AI-driven technologies that lead to better patient outcomes and sustainable healthcare practices.</p>
-					</section>
-						<h2 style="color: purple;">Research Interests</h2>
-						<p> •  <strong>Robotics</strong> (especially medical robotics and human-robot interaction)<br />
-							• <strong>Machine Learning and Deep Learning</strong> (with applications in real-time decision-making)<br />
-							• <strong>Computer Vision</strong> (for medical imaging, object detection, and scene understanding)<br />
-							• <strong>Autonomous Systems and Intelligent Control</strong><br />
-							• <strong>AI for Healthcare and Biomedical Applications</strong><br />
-						</p>
-					</section>
+			<article class="col-6 col-12-xsmall work-item">
+				<img src="images/Planning.png" width="100%" />
+				<h3><strong>路径规划算法开发</strong></h3>
+				<p><strong>目标</strong>：实现从感知到导航的闭环路径规划系统。<br />
+<strong>技术</strong>：使用 ROS2、SLAM Toolbox、Nav2 和自定义路径规划算法完成场景内自主导航。<br />
+<strong>收获</strong>：提升了复杂系统集成能力及路径规划算法实用性分析能力。</p>
+			</article>
 
-				<!-- Two -->
-					<section id="two">
-						<h2 style="color: purple;">Recent Projects</h2>
-						<div class="row">						
-							<article class="col-6 col-12-xsmall work-item">
-							    <div class="image video-preview">
-							        <video style="width: 100%; filter: brightness(1);" autoplay muted loop playsinline>
-							            	<source src="images/NAV.mp4" type="video/mp4">
-							        </video>
-							    </div>				
-							    <h3><strong>Leo Rover Group Project</strong></h3>
-							    <p><strong>Goal</strong>: The project aimed to build an autonomous robot that could explore unknown areas, recognize and sort objects, and operate safely under time and system constraints.<br />
-<strong>My Contribution</strong>:  I contributed to hardware-software integration, including SLAMTEC LiDAR setup, Intel NUC configuration, and ROS-based control development.<br />
-<strong>What I Learned</strong>: I gained hands-on experience in real-time robotics, sensor integration, and the practical challenges of building autonomous systems.<br /></p>
-							</article>
+			<article class="col-6 col-12-xsmall work-item">
+				<img src="images/RPLIDAR.png" width="100%" />
+				<h3><strong>RPLIDAR A2M12 性能评估</strong></h3>
+				<p><strong>目标</strong>：对 SLAMTEC RPLIDAR A2M12 的扫描精度和误差模型进行实验研究。<br />
+<strong>方法</strong>：设计标准场景并采集数据，分析角度分辨率与障碍物检测可靠性。<br />
+<strong>收获</strong>：加深了对 LiDAR 工作原理和系统误差的理解。</p>
+			</article>
+		</div>
+	</section>
 
-							<article class="col-6 col-12-xsmall work-item">
-								<video width="100%" controls>
-								    <source src="images/Coursework_01.mp4" type="video/mp4">
-								</video>
-							    <h3><strong>A research on robotic systems for sustainable development</strong></h3>
-							    <p><strong>Goal</strong>: The project explored how robotics can support the UN Sustainable Development <strong>Goal</strong>s across sectors like healthcare and agriculture.<br />
+	<!-- 技能列表 -->
+	<section id="three">
+		<h2 style="color: purple;">技术技能</h2>
+		<p>
+			• <strong>Python</strong> —— 熟练编写脚本、数据处理、算法开发，掌握 NumPy、Pandas、PyTorch 等库<br />
+			• <strong>C/C++</strong> —— 具备系统级编程、嵌入式开发和机器人控制经验<br />
+			• <strong>ROS2</strong> —— 编写 ROS2 节点、定义自定义消息和服务、多节点调参控制<br />
+			• <strong>PyTorch</strong> —— 构建、训练并评估图像分类与序列预测等模型<br />
+			• <strong>Linux</strong> —— 熟练使用命令行进行开发、包管理、部署 ROS 应用<br />
+			• <strong>树莓派</strong> —— 配置与开发传感器集成、数据采集与机器人原型控制<br />
+			• <strong>STM32 微控制器</strong> —— 使用 STM32CubeIDE 完成 GPIO、ADC、PWM、I2C/SPI/UART 等底层编程<br />
+			• <strong>Altium Designer</strong> —— 熟练绘制电路图和 PCB 设计，适用于嵌入式及机器人系统
+		</p>
+	</section>
 
-<strong>My Contribution</strong>: I analyzed real-world case studies and evaluated ethical concerns like privacy and job loss to promote responsible robotics.<br />
-<strong>What I Learned</strong>: I learned how robotics and sustainability intersect, and gained skills in research, critical thinking, and ethical evaluation.<br />
-
-</p>
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<video width="100%" controls>
-								    <source src="images/Coursework_02.mp4" type="video/mp4">
-								</video>
-							    <h3><strong>Characterisation of the RPLIDAR A2M12 for Autonomous Navigationt</strong></h3>
-							    <p><strong>Goal</strong>: The project evaluated the RPLIDAR A2M12's performance on the Leo Rover by analyzing range, resolution, and surface effects.<br />
-<strong>My Contribution</strong>: I conducted experiments using ROS2 to collect LIDAR data, tested surface effects on detection, and ensured data consistency and documentation.<br />
-<strong>What I Learned</strong>: I gained practical skills in LIDAR sensing, data analysis, and understanding how sensor properties impact autonomous navigation.<br /></p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<div class="image video-preview">
-								        <video style="width: 100%; filter: brightness(1);" autoplay muted loop playsinline>
-								            	<source src="images/path.mp4" type="video/mp4">
-									</video>
-								</div>	
-								<h3><strong>A Path Planning Algorithm for Autonomous Mobile Robots</strong></h3>
-								<p><strong>Goal</strong>: The project aimed to implement the A* algorithm for robot path planning in a GUI-based simulation.<br />
-<strong>My Contribution</strong>: I implemented the A* algorithm in Python from scratch, enabling grid-based pathfinding with obstacle avoidance.
-<br />
-<strong>What I Learned</strong>: I deepened my understanding of A*, improved debugging and optimization skills, and learned the value of clean code in GUI-integrated systems.<br />
-
-</p>
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<div class="image video-preview">
-								        <video style="width: 100%; filter: brightness(1);" autoplay muted loop playsinline>
-								            	<source src="images/Electrical.mp4" type="video/mp4">
-									</video>
-								</div>	
-								<h3>
-									<strong><a href="assets/Electrical.pdf" target="_blank">Op-amp analysis, measurement, and design</a></strong>
-								</h3>
-								<p><strong>Goal</strong>: The project aimed to deepen understanding of op-amps through analysis, simulation, and performance-focused circuit design.<br />
-<strong>My Contribution</strong>: I performed theoretical analysis, simulated op-amp circuits in NI Multisim, and designed advanced configurations to enhance performance.
-<br />
-<strong>What I Learned</strong>: I improved my skills in analog circuit design and simulation, and learned how design choices affect electronic system behavior.<br />
-
-</p>
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<div class="image video-preview">
-								        <video style="width: 100%; filter: brightness(1);" autoplay muted loop playsinline>
-								            	<source src="images/Parallel.mp4" type="video/mp4">
-								        </video>
-								</div>	
-								<h3>
-									<strong><a href="assets/Cluster.pdf" target="_blank">Computer Cluster and Campus Grid project</a></strong>
-								</h3>
-								<p><strong>Goal</strong>: The project explored cloud-based high-performance computing using a virtual cluster with focus on parallelism and scalability.
-<br />
-<strong>My Contribution</strong>: I deployed an Azure-based virtual cluster, ran MPI programs for parallel processing, and benchmarked performance against another setup.
-<br />
-<strong>What I Learned</strong>: I learned practical cloud and parallel computing skills, and how to analyze distributed system performance based on real data.
-<br />
-
-</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<div class="image video-preview">
-								        <video style="width: 100%; filter: brightness(1);" autoplay muted loop playsinline>
-								            	<source src="images/Communication.mp4" type="video/mp4">
-								        </video>
-							    	</div>	
-								<h3>
-									<strong><a href="assets/Communication.pdf" target="_blank">Antenna design and simulation</a></strong>
-								</h3>
-								<p><strong>Goal</strong>: The project focused on designing and simulating dipole and Yagi-Uda antennas to optimize their performance through structural tuning.
-<br />
-<strong>My Contribution</strong>: I optimized a dipole antenna, then designed a Yagi-Uda antenna with enhanced directionality, achieving a peak gain of 11.1934 dBi.
-<br />
-<strong>What I Learned</strong>: I gained practical skills in antenna design and simulation, and a strong grasp of RF performance metrics like gain and impedance.
-<br /></p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<video width="100%" controls>
-								    <source src="images/EDMT.mp4" type="video/mp4">
-								</video>
-							    <h3><strong>University Project (Electronic Design, Manufacture & Test)</strong></h3>
-							    <p><strong>Goal</strong>: The project involved creating a 3×3×3 LED cube responsive to wireless commands and ambient sound for interactive visual effects.
-<br />
-<strong>My Contribution</strong>: I helped design, build, and program the LED cube, integrating wireless control and sound responsiveness using a microphone.
-<br />
-<strong>What I Learned</strong>: I enhanced my skills in electronics, microcontroller programming, teamwork, and real-time system troubleshooting.
-<br /></p>
-							</article>
-						</div>
-					</section>
-
-				
-				<!-- Three -->
-				<section id="three">
-						<h2 style="color: purple;">Technical Skills</h2>
-						<p>
-							• <strong>Python</strong> – Proficient in scripting, data processing, algorithm development, and building machine learning models using libraries such as NumPy, Pandas, and PyTorch.<br />
-							• <strong>C++ / C</strong> – Experienced in system-level programming, real-time embedded systems, and robotics control logic, particularly in microcontroller environments.<br />
-							• <strong>ROS2</strong> (Robot Operating System 2) – Skilled in writing ROS2 nodes, creating custom messages and services, and launching multi-node robotic systems with parameter tuning.<br />
-							• <strong>PyTorch</strong> – Able to build, train, and evaluate deep learning models for tasks such as image classification, object detection, and sequence prediction.<br />
-							• <strong>Linux</strong> – Comfortable with using the Linux command line for development, package management, system monitoring, and deploying ROS-based applications.<br />
-							• <strong>Raspberry Pi</strong> – Experienced in setting up and programming Raspberry Pi for sensor integration, data acquisition, and control in robotic prototypes.<br />
-							• <strong>STM32 Microcontrollers</strong> – Capable of low-level embedded programming using STM32CubeIDE, including GPIO control, ADC, PWM, and communication protocols (I2C, SPI, UART).<br />
-							• <strong>Altium Designer</strong> – Proficient in schematic design and PCB layout for custom electronic circuits used in embedded and robotic systems.<br />
-					
-				<!-- Four -->
-					<section id="four">
-						<h2 style="color: purple;">Get In Touch</h2>
-						<p>Feel free to contact me if you have any questions!</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Off Booth Street East<br />
-										Manchester, M13 9PY<br />
-										United Kingdom
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										(+44) 7395310383<br />
-										(+86) 15980261688
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto:kbly321@gmail.com">kbly321@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-				-->
-
+	<!-- 联系方式 -->
+	<section id="four">
+		<h2 style="color: purple;">联系方式</h2>
+		<p>欢迎随时与我联系！</p>
+		<div class="row">
+			<div class="col-8 col-12-small">
+				<form method="post" action="#">
+					<div class="row gtr-uniform gtr-50">
+						<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="姓名" /></div>
+						<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="邮箱" /></div>
+						<div class="col-12"><textarea name="message" id="message" placeholder="留言" rows="4"></textarea></div>
+					</div>
+				</form>
+				<ul class="actions">
+					<li><input type="submit" value="发送消息" /></li>
+				</ul>
 			</div>
+			<div class="col-4 col-12-small">
+				<ul class="labeled-icons">
+					<li>
+						<h3 class="icon solid fa-home"><span class="label">地址</span></h3>
+						Booth Street East 附近<br />
+						曼彻斯特 M13 9PY<br />
+						英国
+					</li>
+					<li>
+						<h3 class="icon solid fa-mobile-alt"><span class="label">电话</span></h3>
+						(+44) 7395310383<br />
+						(+86) 15980261688
+					</li>
+					<li>
+						<h3 class="icon solid fa-envelope"><span class="label">邮箱</span></h3>
+						<a href="mailto:kbly321@gmail.com">kbly321@gmail.com</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/ruming-zheng-9614a6251" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/KBLYzz" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:kbly321@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+<!-- 页脚 -->
+<footer id="footer">
+	<div class="inner">
+		<ul class="icons">
+			<li><a href="https://www.linkedin.com/in/ruming-zheng-9614a6251" class="icon brands fa-linkedin"><span class="label">领英</span></a></li>
+			<li><a href="https://github.com/KBLYzz" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+			<li><a href="mailto:kbly321@gmail.com" class="icon solid fa-envelope"><span class="label">邮箱</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; 邱明振 2024</li>
+			<li>模板设计：<a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</div>
+</footer>
 
-					</ul>
-					<ul class="copyright">
-						<li>&copy; RumingZheng 2024</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+<!-- JS -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
